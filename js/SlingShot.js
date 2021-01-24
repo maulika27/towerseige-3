@@ -14,6 +14,9 @@ class Slingshot{
     fly(){
         this.sling.bodyA =null;
     }
+    attach(B){
+        this.sling.bodyA = B
+    }
     display(){
         if(this.sling.bodyA){
         var pointA = this.sling.bodyA.position;
